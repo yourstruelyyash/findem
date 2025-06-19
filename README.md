@@ -13,6 +13,7 @@ It’s the first step toward a modular recon engine for red teamers and bug boun
 
 ## 🧪 Usage
 
+```bash
 python findem.py -f output.txt -v
 
 When prompted:
@@ -20,9 +21,9 @@ When prompted:
 **Enter domain name: example.com**
 
 CLI Arguments:
-Flag	Description
--f, --opfile	Output file to save subdomains (required)
--v, --verbose	Print subdomains to terminal (optional)
+
+-f, --opfile → Output file to save subdomains (required)
+-v, --verbose → Print subdomains to terminal (optional)
 
 
 📁 Output Example
@@ -38,10 +39,13 @@ Python 3.10
 
 🛠️ External Dependencies
 
-Make sure these tools are installed and in your $PATH:
-subfinder
-figlet
-lolcat
+Make sure these tools are installed and available in your $PATH:
+> subfinder
+> figlet
+> lolcat
+
+To install subfinder:
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 Install on Debian/Ubuntu/Kali:
 sudo apt install figlet lolcat
