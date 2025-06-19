@@ -18,8 +18,9 @@ python findem.py -f output.txt -v
 ```
 
 When prompted:
-
+```
 **Enter domain name: example.com**
+```
 
 CLI Arguments:
 
