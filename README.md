@@ -17,36 +17,38 @@ It’s the first step toward a modular recon engine for red teamers and bug boun
 python findem.py -f output.txt -v
 ```
 
-When prompted:
+## When prompted:
 ```
 Enter domain name: example.com
 ```
 
-CLI Arguments:
+## CLI Arguments
 
--f, --opfile → Output file to save subdomains (required)
--v, --verbose → Print subdomains to terminal (optional)
-
-
-📁 Output Example
-output.txt
-└── blog.example.com
-    admin.example.com
-    dev.example.com
+-f, --opfile     Output file to save subdomains (required)  
+-v, --verbose    Print subdomains to terminal (optional)
 
 
-⚙️ Requirements
+## 📁 Output Example
+
+output.txt  
+├── blog.example.com  
+├── admin.example.com  
+└── dev.example.com
+
+
+
+## ⚙️ Requirements
 Python 3.10 
 
 
-🛠️ External Dependencies
+## 🛠️ External Dependencies
 
 Make sure these tools are installed and available in your $PATH:
 > subfinder
 > figlet
 > lolcat
 
-To install subfinder:
+## To install subfinder:
 ```
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
@@ -55,18 +57,18 @@ Install on Debian/Ubuntu/Kali:
 sudo apt install figlet lolcat
 ```
 
-💡 Planned (Upcoming) Features
+## 💡 Planned (Upcoming) Features
 
 --httpx: Check which subdomains are live
 --nuclei: Scan live targets for common vulns
 --wayback: Pull archived URLs
 --screenshot: Auto-screenshot live hosts
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 This tool is for educational and authorized security testing only.
 Always get permission before scanning any target.
 
-🚧 findem! is under active development — I’m building this tool step by step, learning and improving with each version.
+## 🚧 findem! is under active development — I’m building this tool step by step, learning and improving with each version.
 
-👨‍💻 Author
+## 👨‍💻 Author
 Built with ❤️ by Yashvardhan
