@@ -15,6 +15,7 @@ It’s the first step toward a modular recon engine for red teamers and bug boun
 
 ```bash
 python findem.py -f output.txt -v
+```
 
 When prompted:
 
@@ -45,11 +46,13 @@ Make sure these tools are installed and available in your $PATH:
 > lolcat
 
 To install subfinder:
+```
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
-
+```
 Install on Debian/Ubuntu/Kali:
+```
 sudo apt install figlet lolcat
-
+```
 
 💡 Planned (Upcoming) Features
 
